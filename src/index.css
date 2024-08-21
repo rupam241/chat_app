@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida";
+}
+
+body{
+  background-image: url('/bg.jpg');
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+.container{
+  width: 90vw;
+  height:90vh;
+  background-color: rgba(17,25,40,0.75);
+  backdrop-filter: blur(19px) saturate(180%);
+  border-radius: 12px;
+
+  border: 1px solid rgba(255,255,255,0.125);
+
+  display: flex;
+  ::-webkit-scrollbar {
+    width: 8px; /* Adjust width if needed */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2); /* Lightly colored thumb for visibility, adjust opacity as needed */
+    border-radius: 10px; /* Rounded scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Slightly more visible on hover */
+}
+
+  
+}
